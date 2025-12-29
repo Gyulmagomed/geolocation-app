@@ -1,0 +1,31 @@
+# В папке проекта создайте файл .gitignore:
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+
+# Database
+*.db
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PythonAnywhere
+*.pyc
+geodata.db
+EOF
